@@ -1,7 +1,7 @@
 # NSynth Encoding Manipulation Experiments
 By Max Keene
 
-### Try it on <a href="https://colab.research.google.com/notebook#fileId=1bGUhlwP7UNJPc2ZpQsYGvvTK_Cm_H7Z8&scrollTo=0jGH2hExi_wh&sandboxMode=true">colab</a>
+### Try the experiments yourself, <a href="https://colab.research.google.com/notebook#fileId=1bGUhlwP7UNJPc2ZpQsYGvvTK_Cm_H7Z8&scrollTo=0jGH2hExi_wh&sandboxMode=true">click here</a>
 
 # Description
 The goal of the experiments is to explore new musical possibilities with nsynth. The main focus around these experiments is on the modulation of an encoding in the lantent space that nsynth creates. When a sound is fed into the nsynth encdoer it is essentially given a point in that latent space, and by moving the point slightly the sound is changed slightly. The latent space of nsynth has 16 dimentions, which means there are 16 axes of control to potentially modulate. The axial position of an encoding is stored in what are called channels of the encoding. This is where it really gets musically interesting. The only known sonic effect of an individual channel is that the further its value is from zero the greater effect it has on what the decoder generates. Because of this it is very hard to exactly predict what sound the experiment will create, but it will be somewhat related to the originally encoded audio. My recommendation is to generate a lot of different manipulated encodings and decode them all at once, because you'll get some you like and some you don't.
